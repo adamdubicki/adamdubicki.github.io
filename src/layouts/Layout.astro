@@ -1,23 +1,89 @@
+---
+import logo from "../assets/logo-dithered-200x200.png";
+---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adam Dubicki | Full Stack Developer</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="container">
+      <aside class="sidebar">
+        <img src={logo.src} />
+        <h1>Adam Dubicki</h1>
+        <p>Full Stack Software Developer</p>
+        <nav class="sidebar__nav">
+          <a href="#about-me">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </aside>
+      <div class="divider" aria-hidden="true"></div>
+      <article class="main">
+        <slot />
+      </article>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  * {
+    font-family: Oxygen, sans-serif;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin: 0;
+    color: #444;
+  }
+
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    gap: 40px;
+    align-items: stretch;
+  }
+
+  .divider {
+    width: 1px;
+    border-left: 2px dotted #8b0808;
+  }
+
+  .sidebar {
+    flex: 0 0 216px;
+    position: sticky;
+    top: 24px;
+    height: fit-content;
+  }
+
+  .sidebar__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    flex: 1;
+    min-width: 0;
+  }
 </style>
