@@ -22,3 +22,6 @@ Gemfile.lock
 
 # Node Modules
 node_modules/
+
+# DS Store
+.DS_Store
