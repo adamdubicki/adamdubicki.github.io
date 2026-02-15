@@ -1,5 +1,11 @@
 ---
 import logo from "../assets/logo-dithered-200x200.png";
+
+function toggleDarkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  return
+}
 ---
 
 <!doctype html>
@@ -18,7 +24,8 @@ import logo from "../assets/logo-dithered-200x200.png";
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
   <body>
-    <header></header>
+    <header><button ={() => toggleDarkMode()}>Toggle dark mode</button>
+</button></header>
     <main class="container">
       <aside class="sidebar">
         <img src={logo.src} />
@@ -45,6 +52,12 @@ import logo from "../assets/logo-dithered-200x200.png";
 <style>
   * {
     font-family: Oxygen, sans-serif;
+    color-scheme: light dark;
+    --text-color: light-dark(#121216, #121216);
+    --bg-color: light-dark(#121216, #e8e6e1);
+
+	  background-color: var(--bg-color);
+	  color: 	var(--text-color)
   }
 
   h1 {
@@ -53,7 +66,6 @@ import logo from "../assets/logo-dithered-200x200.png";
   }
   p {
     margin: 0;
-    color: #444;
   }
 
   .container {
@@ -67,7 +79,7 @@ import logo from "../assets/logo-dithered-200x200.png";
 
   .divider {
     width: 1px;
-    border-left: 2px dotted #8b0808;
+    border-left: 2px dotted var(--text-color);
   }
 
   .sidebar {
