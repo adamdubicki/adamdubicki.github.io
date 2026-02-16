@@ -2,6 +2,10 @@ on:
   pull_request:
     branches:
       - main
+      
+env:
+  BUILD_PATH: "." # default value when not using subfolders
+
 jobs:
   build:
     name: Build
