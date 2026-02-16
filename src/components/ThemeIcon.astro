@@ -2,7 +2,7 @@
 
 ---
 
-<button id="themeToggle" aria-label="Toggle theme">
+<button id="theme-toggle" aria-label="Toggle theme">
   <svg
     aria-hidden="true"
     width="30px"
@@ -23,22 +23,24 @@
 </button>
 
 <style>
-  #themeToggle {
+  #theme-toggle {
     border: 0;
     background: none;
   }
   .sun {
-    fill: black;
+    fill: var(--text-color);
+    transition: fill 0.3s ease;
   }
   .moon {
     fill: transparent;
+    transition: fill 0.3s ease;
   }
 
   :global(.dark) .sun {
     fill: transparent;
   }
   :global(.dark) .moon {
-    fill: white;
+    fill: var(--text-color);
   }
 </style>
 
@@ -71,6 +73,6 @@
   };
 
   document
-    .getElementById("themeToggle")
+    .getElementById("theme-toggle")
     ?.addEventListener("click", handleToggleClick);
 </script>

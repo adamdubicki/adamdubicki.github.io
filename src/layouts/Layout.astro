@@ -1,5 +1,5 @@
 ---
-import logo from "../assets/logo-dithered-200x200.png";
+import logo from "../assets/adam-dithered-240x240.png";
 import ThemeIcon from "../components/ThemeIcon.astro";
 import "../styles/global.css";
 ---
@@ -20,18 +20,24 @@ import "../styles/global.css";
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
   <body>
-    <ThemeIcon />
     <main class="container">
       <aside class="sidebar">
-        <img src={logo.src} />
-        <h1>Adam Dubicki</h1>
+        <img
+          width={240}
+          height={240}
+          src={logo.src}
+          alt="Adam Dubicki Headshot"
+        />
+        <span>Adam Dubicki<ThemeIcon /></span>
         <p>Full Stack Software Developer</p>
         <nav class="sidebar__nav">
-          <a href="#about-me">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
+          <a href="/#about-me">About Me</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#experience">Experience</a>
+          <a href="/#contact">Contact</a>
+          <hr />
+          <a href="/books-i-have-read">Books I Have Read</a>
         </nav>
       </aside>
       <div class="divider" aria-hidden="true"></div>
@@ -39,30 +45,10 @@ import "../styles/global.css";
         <slot />
       </article>
     </main>
-
-    <footer></footer>
   </body>
 </html>
 
 <style>
-  * {
-    font-family: Oxygen, sans-serif;
-    /* color-scheme: light dark;
-    --text-color: light-dark(#121216, #121216);
-    --bg-color: light-dark(#121216, #e8e6e1);
-
-	  background-color: var(--bg-color);
-	  color: 	var(--text-color) */
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  p {
-    margin: 0;
-  }
-
   .container {
     display: flex;
     max-width: 1000px;

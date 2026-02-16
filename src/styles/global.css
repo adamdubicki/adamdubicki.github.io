@@ -1,22 +1,53 @@
+:root {
+  --bg-color: #f5eac2;
+  --text-color: #2c1f33;
+  --link-color: #d95d39;
+  --menu-bg: #2c1f33;
+  --menu-text: #f5eac2;
+}
+
+* {
+  font-family: Oxygen, sans-serif, "Roboto", sans-serif;
+}
+
 html.dark {
-  background-color: #0d0950;
-  color: #fff;
+  --bg-color: #2c1f33;
+  --text-color: #f5eac2;
+  --link-color: #ff9776;
+  --menu-bg: #f5eac2;
+  --menu-text: #2c1f33;
 }
 
-.dark .menu {
-  background-color: #fff;
-  color: #000;
+html {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
-.dark .nav-links a:hover,
-.dark .nav-links a:focus {
-  color: #0d0950;
+hr {
+  border-color: var(--link-color);
 }
 
-.dark .nav-links a {
-  color: #fff;
+a {
+  color: var(--link-color);
 }
 
-.dark a {
-  color: #ff9776;
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.nav-links a {
+  color: var(--text-color);
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--menu-bg);
 }
