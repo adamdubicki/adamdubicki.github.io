@@ -1,11 +1,7 @@
 ---
 import logo from "../assets/logo-dithered-200x200.png";
-
-function toggleDarkMode() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-  return
-}
+import ThemeIcon from '../components/ThemeIcon.astro';
+import '../styles/global.css'; 
 ---
 
 <!doctype html>
@@ -24,8 +20,7 @@ function toggleDarkMode() {
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
   <body>
-    <header><button ={() => toggleDarkMode()}>Toggle dark mode</button>
-</button></header>
+    <ThemeIcon />
     <main class="container">
       <aside class="sidebar">
         <img src={logo.src} />
@@ -52,12 +47,12 @@ function toggleDarkMode() {
 <style>
   * {
     font-family: Oxygen, sans-serif;
-    color-scheme: light dark;
+    /* color-scheme: light dark;
     --text-color: light-dark(#121216, #121216);
     --bg-color: light-dark(#121216, #e8e6e1);
 
 	  background-color: var(--bg-color);
-	  color: 	var(--text-color)
+	  color: 	var(--text-color) */
   }
 
   h1 {
