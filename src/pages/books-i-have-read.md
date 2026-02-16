@@ -1,0 +1,325 @@
+---
+layout: ../layouts/Layout.astro
+---
+
+# Books I have read
+
+- I borrowed this format from blogger Luke Gearing.
+- Books in **bold** are strongly recommended.
+- Books in _italics_ are re-reads.
+- DNF's are omitted.
+
+---
+
+## Books from before 2021 that I enjoyed
+
+- **House of Leaves - Mark Danielewski**
+- **Sabrina - Nick Drnasso**
+- **Slaughterhouse V - Kurt Vonnegut**
+- **Bone - Jeff Smith**
+- **Locke and Key - Joe Hill**
+
+---
+
+## 2021
+
+- Man's Search for Meaning - Viktor Frankl
+- 11/22/63 - Stephen King
+- The Stand - Stephen King
+- The Long Walk - Stephen King
+- Dune - Frank Herbert
+- **Hyperion - Dan Simmons**
+- The Fall of Hyperion - Dan Simmons
+- No Longer Human - Osamu Dazai
+- **Stoner - John Williams**
+- The Dark Tower I: The Gunslinger - Stephen King
+- Can't Hurt Me - David Goggins
+- The Dark Tower II: The Drawing of the Three - Stephen King
+- **The Dark Tower III: The Waste Lands - Stephen King**
+- **The Dark Tower IV: Wizard and Glass - Stephen King**
+- The Dark Tower V: Wolves of the Calla - Stephen King
+- 'Salem's Lot - Stephen King
+- Flowers for Algernon - Daniel Keyes
+- **Roadside Picnic - Arkady & Boris Strugatsky**
+- Project Hail Mary - Andy Weir
+- Endurance: Shackleton's Incredible Voyage - Alfred Lansing
+- The Dark Tower VI: Song of Susannah - Stephen King
+- Blood Meridian - Cormac McCarthy
+- **The Blade Itself - Joe Abercrombie**
+- The Dark Tower VII: The Dark Tower - Stephen King
+- East of Eden - John Steinbeck
+- Billy Summers - Stephen King
+- **Before They Are Hanged - Joe Abercrombie**
+- The Eye of the World - Robert Jordan
+- **Last Argument of Kings - Joe Abercrombie**
+- _Moonfleet - J. Meade Falkner_
+- **Best Served Cold - Joe Abercrombie**
+- Butcher's Crossing - John Williams
+- Storm Front - Jim Butcher
+- **The Heroes - Joe Abercrombie**
+- It - Stephen King
+- Red Country - Joe Abercrombie
+- Half a King - Joe Abercrombie
+- Mistborn: The Final Empire - Brandon Sanderson
+- The Underwater Welder - Jeff Lemire
+- Sharp Ends - Joe Abercrombie
+- A Little Hatred - Joe Abercrombie
+- A Little Life - Hanya Yanagihara
+
+---
+
+## 2022
+
+- **The Trouble with Peace - Joe Abercrombie**
+- Black Hole - Charles Burns
+- Watership Down - Richard Adams
+- The Wisdom of Crowds - Joe Abercrombie
+- Bodega - Ted Forsyth
+- My Favorite Thing Is Monsters - Emil Ferris
+- Leviathan Wakes - James S.A. Corey
+- The Fifth Season - N.K. Jemisin
+- The Design of Everyday Things - Don Norman
+- The Lies of Locke Lamora - Scott Lynch
+- Dark Matter - Blake Crouch
+- A Confederacy of Dunces - John Kennedy Toole
+- Hyperbole and a Half - Allie Brosh
+- Red Seas Under Red Skies - Scott Lynch
+- The Picture of Dorian Gray - Oscar Wilde
+- Maus - Art Spiegelman
+- The Name of the Wind - Patrick Rothfuss
+- The Shadow of the Gods - John Gwynne
+- Piranesi - Susanna Clarke
+- The Way of Kings - Brandon Sanderson
+- Words of Radiance - Brandon Sanderson
+- All Systems Red - Martha Wells
+- The Hobbit - J.R.R. Tolkien
+- Jade City - Fonda Lee
+- Red Rising - Pierce Brown
+- The Wind Through the Keyhole - Stephen King
+- A Man Called Ove - Fredrik Backman
+- Born a Crime - Trevor Noah
+- **Lonesome Dove - Larry McMurtry**
+- Erebus: The Story of a Ship - Michael Palin
+- Recursion - Blake Crouch
+- Assassin's Apprentice - Robin Hobb
+- Royal Assassin - Robin Hobb
+- The Paper Menagerie - Ken Liu
+- The Call of the Wild - Jack London
+- Johnny Appleseed - Joshua Whitehead
+- The Terror - Dan Simmons
+- I'm Glad My Mother Died - Jennette McCurdy
+- Endymion - Dan Simmons
+- Gardens of the Moon - Steven Erikson
+- Fairy Tale - Stephen King
+- Rita Hayworth and Shawshank Redemption - Stephen King
+- The Body - Stephen King
+- The Rise of Endymion - Dan Simmons
+- The Kaiju Preservation Society - John Scalzi
+- Sixteen Ways to Defend a Walled City - K.J. Parker
+- Acting Class - Nick Drnaso
+- **Swan Song - Robert McCammon**
+- Ducks: Two Years in the Oil Sands - Kate Beaton
+- Boy's Life - Robert McCammon
+- All Quiet on the Western Front - Erich Maria Remarque
+- Imajica - Clive Barker
+- Empire of Silence - Christopher Ruocchio
+- **No Country for Old Men - Cormac McCarthy**
+- The First 90 Days - Michael D. Watkins
+- All the Pretty Horses - Cormac McCarthy
+- Gunmetal Gods - Zamil Akhtar
+- Howling Dark - Christopher Ruocchio
+- _Stoner - John Williams_
+- From Hell - Alan Moore & Eddie Campbell
+
+---
+
+## 2023
+
+- The Troop - Nick Cutter
+- Child of God - Cormac McCarthy
+- Assassins Quest - Robin Hobb
+- Republic of Thieves - Scott Lynch
+- **The Green Mile - Stephen King**
+- Senlin Ascends - Josiah Bancroft
+- _The Pragmatic Programmer - Andrew Hunt & David Thomas_
+- What Moves the Dead - T. Kingfisher
+- _Clean Architecture - Robert C. Martin_
+- Revival - Stephen King
+- Mr Mercedes - Stephen King
+- **Finders Keepers - Stephen King**
+- **1984 - George Orwell**
+- Animal Farm - George Orwell
+- Never Finished - David Goggins
+- Later - Stephen King
+- The Fisherman - John Langan
+- End of Watch - Stephen King
+- **One Summer in America - Bill Bryson**
+- The Mist - Stephen King
+- If It Bleeds - Stephen King
+- The Outsider - Stephen King
+- The Body: A Guide for Occupants - Bill Bryson
+- The Body Keeps the Score - Bessel van der Kolk
+- Good Omens - Terry Pratchett & Neil Gaiman
+- 1922 - Stephen King
+- The Phantom Tollbooth - Norton Juster
+- Annihilation - Jeff VanderMeer
+- **Ship of Magic - Robin Hobb**
+- Guards! Guards! - Terry Pratchett
+- All the Light We Cannot See - Anthony Doerr
+- Pet Sematary - Stephen King
+- A Walk in the Woods - Bill Bryson
+- The Shining - Stephen King
+- **Mad Ship - Robin Hobb**
+- Demon Copperhead - Barbara Kingsolver
+- The Wager - David Grann
+- Hidden Pictures - Jason Rekulak
+- The Song of Achilles - Madeline Miller
+- Caliban's War - James S.A. Corey
+- This Is How You Lose the Time War - Amal El-Mohtar & Max Gladstone
+- **The Giver - Lois Lowry**
+- The Outsiders - S.E. Hinton
+- Beartown - Fredrik Backman
+- The Creative Act - Rick Rubin
+- Ship of Destiny - Robin Hobb
+- Us Against You - Fredrik Backman
+- Misery - Stephen King
+- Milk and Honey - Rupi Kaur
+- Swan Song - Robert McCammon
+- Life of Pi - Yann Martel
+- The Remains of the Day - Kazuo Ishiguro
+- **My Year of Rest and Relaxation - Ottessa Moshfegh**
+- The Will of the Many - James Islington
+- Demon in White - Christopher Ruocchio
+- Lapvona - Ottessa Moshfegh
+- Death in Her Hands - Ottessa Moshfegh
+- Dolores Claiborne - Stephen King
+- They Thirst - Robert McCammon
+- Eileen - Ottessa Moshfegh
+- McGlue - Ottessa Moshfegh
+- Tender Is the Flesh - Agustina Bazterrica
+- _**The Road - Cormac McCarthy**_
+- Gone South - Robert McCammon
+- **Designing Data-Intensive Applications - Martin Kleppmann**
+- The Tao of Pooh - Benjamin Hoff
+- **The Wolf - Leo Carew**
+- **The Exorcist - William Peter Blatty**
+- Kingdoms of Death - Christopher Ruocchio
+- To Kill a Mockingbird - Harper Lee
+- How to Run Fast - Hal Higdon
+- The Spider - Leo Carew
+- Fahrenheit 451 - Ray Bradbury
+- Small Things Like These - Claire Keegan
+- 7 Habits of Highly Effective People - Stephen Covey
+- The Cuckoo - Leo Carew
+
+---
+
+## 2024
+
+- Ashes of Man - Christopher Ruochio
+- Children of Time - Adrian Tchaikovsky
+- Blue World - Robert McCammon
+- _Rita Hayworth and the Shawshank Redemption - Stephen King_
+- Apt Pupil - Stephen King
+- The Breathing Method - Stephen King
+- How to Win Friends and Influence People - Dale Carnegie
+- _Watership Down - Richard Adams_
+- Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin
+- _**The Blade Itself - Joe Abercrombie**_
+- _**Before They Are Hanged - Joe Abercrombie**_
+- Green Lights - Matthew McConaughey
+- _**Last Arguement of Kings - Joe Abercrombie**_
+- Lighthouses - R.G. Grant
+- **Invisible Cities - Italo Calvino**
+- Speaks the Nightbird - Robert McCammon
+- Of Mice and Men - John Steinbeck
+- How to ADHD - Jessica McCabe
+- Advanced React - Nadia Makarevich
+- **Blackwater - Michael McDowell**
+- **Deadhouse Gates - Steven Erikson**
+- A Complex Coast - David Norwell
+- **Memories of Ice - Steven Erikson**
+- Streets of Laredo - Larry McMurtry
+- House of Chains - Steven Erikson
+- _**The Long Walk - Stephen King**_
+- **Midnight Tides - Steven Erikson**
+- A Canticle for Leibowitz - Walter M. Miller Jr.
+- The Stranger - Albert Camus
+- A Short History of Nearly Everything - Bill Bryson
+- Einstein's Dreams - Alan Lightman
+- **The Bonehunters - Steven Erikson**
+- _Swan Song - Robert McCammon_
+- The Darkness That Comes Before - R. Scott Bakker
+- Reapers Gale - Steven Erikson
+- _**Hyperion - Dan Simmons**_
+- The Elementals - Michael McDowell
+- Toll The Hounds - Steven Erikson
+- **I Who Have Never Known Men - Jacqueline Harpman**
+- Dust of Dreams - Steven Erikson
+
+---
+
+## 2025
+
+- \***\*Best Served Cold - Joe Abercrombie\*\***
+- **The Crippled God - Steven Erikson**
+- The Last Unicorn - Peter S. Beagle
+- Better Small Talk - Patrick King
+- _**The Boy, the Mole, the Fox, and the Horse - Charlie Mackesy**_
+- Ender's game - Orson Scott Card
+- Everything is Tuberculosis - John Green
+- _Red Rising - Pierce Brown_
+- **Needful Things - Stephen King**
+- Dungeon Crawler Carl - Matt Dinniman
+- The Wind in the Willows - Kenneth Grahame
+- The Devils - Joe Abercrombie
+- The Little Prince - Antoine de Saint-Exupéry
+- Death of Ivan Illyich - Leo Tolstoy
+- _**Roadside Picnic - Arkady & Boris Strugatsky**_
+- The Hellbound Heart - Clive Barker
+- Golden Son - Pierce Brown
+- **The Sirens of Titan - Kurt Vonnegut**
+- The Things They Carried - Tim O'Brien
+- Power Fantasy Volume #1 - Kieron Gillen
+- **A Short Stay in Hell - Steven L. Peck**
+- The Nice House on the Lake - Alvaro Martinez and James Tynion IV
+- Solaris - Stanislaw Lem
+- Metro 2033 - Dmitry Glukhovsky
+- _11/22/63 - Stephen King_
+- Deadeye Dick - Kurt Vonnegut
+- Tress and the Emerald Sea - Brandon Sanderson
+- Swamp Thing Vol 1 - Alan Moore
+- **The Golden Compass - Philip Pullman**
+- The Subtle Knife - Philip Pullman
+- Martyr! - Kaveh Akbar
+- The Ruins - Scott Smith
+- Strange Houses - Uketsu
+- Into Thin Air - Jon Krakauer
+- 20th Century Ghosts - Joe Hill
+- _**No Country for Old Men - Cormac McCarthy**_
+- **The Library at Mount Char**
+- **Annihilation - Jeff Vandermeer**
+- **We Have Always Lived in a Castle - Shirley Jackson**
+- Heart Shaped Box - Joe Hill
+- Interview with the Vampire - Anne Rice
+- **I am Thinking of Ending Things - Iain Reid**
+- There is no Antimemetics Division - QNTM
+- **The Green Mile - Stephen King**
+- **The Failures - Benjamin Liar**
+- WE3 - Grant Morrison
+- Louis Riel - Chester Brown
+- **King Sorrow - Joe Hill**
+
+---
+
+## 2026
+
+- Slewfoot - Brom
+- **Satantango - László Krasznahorkai**
+- **Making History - K.J. Parker**
+- Disquiet Gods - Christopher Ruochio
+- **The Last House on Needless Street - Catriona Ward**
+- Amulet: The Stonekeeper - Kazu Kibuishi
+- Amulet: The Stonekeeper's Curse - Kazu Kibuishi
+- Rejection - Tony Tulathimutte
+- **Blindsight - Peter Watts**
