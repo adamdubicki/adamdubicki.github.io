@@ -1,0 +1,159 @@
+---
+import ExperienceCard from "./ExperienceCard.astro";
+import ExperienceItem from "./ExperienceItem.astro";
+---
+
+<div class="welcome">
+  <h1>👋 Hi there! My name is Adam Dubicki.</h1>
+  <div class="section" id="about-me">
+    <h2>About Me</h2>
+    <p>
+      I'm a full-stack dev living in beautiful Victoria, BC. I've been building
+      for the web since finishing my CS degree at UVic back in 2017. These days,
+      I spend most of my building backends with Spring Boot, NestJS, and
+      Node.js, but I'm always down to talk shop about new frameworks or clean
+      code. When I'm not staring at a terminal, I'm usually trying to tire
+      myself out. In the summer, that means long distance or hiking up Mt.
+      Finlayson. When it's too cold for the trails, you'll find me staying warm
+      inside with a great book or a board game.
+    </p>
+    <p>
+      I am self-taught in scratchboard art. I mostly draw animals. My designs
+      can be purchased on <a
+        class="text-primary"
+        rel="noreferrer"
+        href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
+      >
+        redbubble.</a
+      > For other updates you can follow me on <a
+        class="text-primary"
+        href="https://www.instagram.com/a.j.dubicki"
+        rel="noreferrer">instagram.</a
+      >
+    </p>
+    <iframe
+      height="200"
+      src="https://www.youtube.com/embed/-4wPE_KlKz4"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""></iframe>
+  </div>
+  <div class="section" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Frontend</b> - React, NextJS, Redux</li>
+      <li><b>Backend</b> - Express, Spring Boot, NestJS, Django</li>
+      <li><b>Languages</b> - Typescript, Python, Kotlin Bash</li>
+      <li><b>Databases</b> - MySQL, Postgres, RDS, DynamoDB, MongoDB</li>
+      <li><b>ELT</b> - Airflow, Spark, Apache Superset, DBT</li>
+    </ul>
+  </div>
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+    <p>LOREMIPSUM</p>
+  </div>
+  <div class="section" id="experience">
+    <h2>Experience</h2>
+    <ExperienceCard company="Workday">
+      <ExperienceItem from="Jul 2023" to="Present" position="Technical Lead">
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+    <ExperienceCard company="Knoetic">
+      <ExperienceItem from="Nov 2021" to="Nov 2022" position="Technical Lead">
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+    <ExperienceCard company="Cuboh">
+      <ExperienceItem from="Nov 2021" to="Nov 2022" position="Technical Lead">
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+      <ExperienceItem
+        from="May 2025"
+        to="Nov 2021"
+        position="Full Stack Software Developer"
+      >
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+    <ExperienceCard company="Freshworks Studio">
+      <ExperienceItem
+        from="Mar 2019"
+        to="May 2020"
+        position="Full Stack Developer II"
+      >
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+      <ExperienceItem
+        from="Oct 2017"
+        to="Mar 2019"
+        position="Full Stack Developer I"
+      >
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+    <ExperienceCard company="Giftbit">
+      <ExperienceItem
+        from="May 2016"
+        to="Dec 2016"
+        position="Junior Backend Software Developer"
+      >
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+    <ExperienceCard company="IBM">
+      <ExperienceItem from="Jan 2015" to="Apr 2015" position="QA Analyst">
+        <ul>
+          <li>fooo</li>
+        </ul>
+      </ExperienceItem>
+    </ExperienceCard>
+  </div>
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <a href="mailto:adamdubicki@outlook.com"
+      >Email: adamdubicki(at)outlook.com</a
+    >
+    <a href="https://www.linkedin.com/in/adam-dubicki/"
+      >Linkedin: https://www.linkedin.com/in/adam-dubicki/</a
+    >
+    <a href="https://github.com/adamdubicki"
+      >Github: https://github.com/adamdubicki</a
+    >
+    <a
+      href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
+      >Redbubble: https://www.redbubble.com/people/adubicki</a
+    >
+  </div>
+
+  <style>
+    #about-me {
+      display: "flex";
+      flex-direction: column;
+      gap: 8px;
+    }
+    .welcome {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</div>

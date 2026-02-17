@@ -1,0 +1,16 @@
+---
+const { company } = Astro.props;
+---
+<div class="experience-card">
+    <h3>{company}</h3>
+    <slot />
+</div>
+
+<style>
+    .experience-card {
+        padding-left: 34px;
+        border: dotted;
+        border-radius: 10px;
+        margin: 8px;
+    }
+</style>

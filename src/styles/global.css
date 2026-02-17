@@ -27,27 +27,21 @@ html {
 }
 
 hr {
-  border-color: var(--link-color);
+  border: 2px dotted var(--link-color)
 }
 
 a {
   color: var(--link-color);
 }
 
-h1 {
-  font-size: 1.5rem;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 p {
   margin: 0;
-}
-
-.nav-links a {
-  color: var(--text-color);
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  color: var(--menu-bg);
 }

@@ -1,0 +1,43 @@
+---
+import logo from "../../assets/adam-dithered-240x240.png";
+import ThemeIcon from "../ThemeIcon.astro";
+import { NAVIGATION } from "../../utils/constants.ts";
+---
+
+<aside class="sidebar">
+  <img
+    class="sidebar__logo"
+    width={240}
+    height={240}
+    src={logo.src}
+    alt="Adam Dubicki Headshot"
+  />
+  <span>Adam Dubicki<ThemeIcon /></span>
+  <p>Full Stack Software Developer</p>
+  <nav class="sidebar__nav">
+    {NAVIGATION.map((i) => <a href={i.href}>{i.text}</a>)}
+  </nav>
+</aside>
+
+<style>
+  @media(max-width: 712px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  .sidebar {
+    flex: 0 0 216px;
+    position: sticky;
+    top: 24px;
+    height: fit-content;
+  }
+
+  .sidebar__logo {
+    border-radius: 10%;
+  }
+
+  .sidebar__nav {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
