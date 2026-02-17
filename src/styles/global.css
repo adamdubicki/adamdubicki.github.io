@@ -27,7 +27,7 @@ html {
 }
 
 hr {
-  border: 2px dotted var(--link-color)
+  border: 2px dotted var(--link-color);
 }
 
 a {

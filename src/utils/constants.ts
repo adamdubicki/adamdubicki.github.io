@@ -14,6 +14,7 @@ export const NAVIGATION = [
   { href: "#experience", text: "Experience" },
   { href: "/#contact", text: "Contact" },
   {
-    href: "/books-i-have-read", "text": "Books I have read"
-  }
+    href: "/books-i-have-read",
+    text: "Books I have read",
+  },
 ];
