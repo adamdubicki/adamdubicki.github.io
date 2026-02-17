@@ -3,6 +3,11 @@ import ExperienceCard from "./ExperienceCard.astro";
 import ExperienceItem from "./ExperienceItem.astro";
 
 import giftbit from "../../assets/giftbit.png";
+import cuboh from "../../assets/cuboh.png";
+import freshworks from "../../assets/freshworks.png";
+import cpoqh from "../../assets/cpohq.png";
+import workday from "../../assets/workday.png";
+import ibm from "../../assets/ibm.png";
 ---
 
 <div class="welcome">
@@ -56,24 +61,50 @@ import giftbit from "../../assets/giftbit.png";
   </div>
   <div class="section" id="experience">
     <h2>Experience</h2>
-    <!-- <ExperienceCard company="Workday">
-      <ExperienceItem from="Jul 2023" to="Present" position="Technical Lead">
+    <ExperienceCard company="Workday" img={workday}>
+      <ExperienceItem from="Jul 2023" to="Present" position="P3 Software Development Engineer">
         <ul>
           <li>fooo</li>
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="Knoetic">
-      <ExperienceItem from="Nov 2021" to="Nov 2022" position="Technical Lead">
+    <ExperienceCard company="CPOHQ | Knoetic" img={cpoqh}>
+      <ExperienceItem from="Nov 2022" to="Mar 2023" position="Senior Full Stack Software Developer ">
         <ul>
-          <li>fooo</li>
+          <li>
+            Improved data quality by approximately 10% by identifying and
+            addressing issues within the data-transform pipeline
+          </li>
+          <li>
+            Led demos and presentations within a demo-driven environment to
+            effectively communicate findings and solutions to company
+            stakeholders
+          </li>
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="Cuboh">
+    <ExperienceCard company="Cuboh (acquired by Chownow)" img={cuboh}>
       <ExperienceItem from="Nov 2021" to="Nov 2022" position="Technical Lead">
         <ul>
-          <li>fooo</li>
+          <li>
+            Successfully led a team in migrating microservices from Heroku to
+            AWS resulting in $4,000/month cost savings
+          </li>
+          <li>
+            Designed and implemented an analytics module utilizing
+            pre-aggregation techniques, resulting in a significant reduction in
+            report generation time from over 10 seconds to under 2 seconds for
+            reports containing 100,000 rows
+          </li>
+          <li>
+            Mentored junior developer and team on best practices. Worked
+            extensively with product and UX to help shape features to delight
+            our customers
+          </li>
+          <li>
+            Developed RESTful APIs and backend services in a service-oriented
+            architecture
+          </li>
         </ul>
       </ExperienceItem>
       <ExperienceItem
@@ -82,30 +113,54 @@ import giftbit from "../../assets/giftbit.png";
         position="Full Stack Software Developer"
       >
         <ul>
-          <li>fooo</li>
+          <li>
+            Achieved a significant reduction in incoming network requests of
+            approximately 95% by optimizing the infrastructure between services.
+          </li>
+          <li>
+            Automated onboarding process to reduce customer onboarding time from
+            6 weeks to less than 1 week
+          </li>
+          <li>
+            Doubled the performance of the mobile application by refactoring the
+            application to be event driven
+          </li>
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="Freshworks Studio">
+    <ExperienceCard
+      company="Freshworks Studio (acquired by EY)"
+      img={freshworks}
+    >
       <ExperienceItem
         from="Mar 2019"
         to="May 2020"
         position="Full Stack Developer II"
-      >
-        <ul>
-          <li>fooo</li>
-        </ul>
-      </ExperienceItem>
+      />
       <ExperienceItem
         from="Oct 2017"
         to="Mar 2019"
         position="Full Stack Developer I"
       >
         <ul>
-          <li>fooo</li>
-        </ul>
-      </ExperienceItem>
-    </ExperienceCard> -->
+          <li>
+            Optimized application performance for A Place for Mom by
+            architecting a custom caching layer, successfully reducing
+            first-render time to under 2 seconds.
+          </li>
+          <li>
+            Engineered a reusable JSON-to-HealthVault translation library,
+            streamlining data interactions and reducing boilerplate code by
+            ~90%.
+          </li>
+          <li>
+            Hardened the Foundry BC backend to achieve full compliance with
+            PIPEDA, FOIPPA, PIPA, and BC OCIO security standards, ensuring data
+            privacy.
+          </li>
+        </ul></ExperienceItem
+      >
+    </ExperienceCard>
     <ExperienceCard company="Giftbit" img={giftbit}>
       <ExperienceItem
         from="May 2016"
@@ -116,46 +171,43 @@ import giftbit from "../../assets/giftbit.png";
           <li>fooo</li>
         </ul>
       </ExperienceItem>
-      <!-- </ExperienceCard>
-      <ExperienceItem from="Jan 2015" to="Apr 2015" position="QA Analyst">
-        <ul>
-          <li>fooo</li>
-        </ul>
-      </ExperienceItem>
-    </ExperienceCard> -->
+    </ExperienceCard>
+    <ExperienceCard company="IBM" img={ibm}>
+      <ExperienceItem from="Jan 2015" to="Apr 2015" position="QA Analyst" />
+      <ul>
+        <li>fooo</li>
+      </ul>
     </ExperienceCard>
   </div>
-  <div class="section" id="contact">
-    <h2>Contact</h2>
-    <a href="mailto:adamdubicki@outlook.com"
-      >Email: adamdubicki(at)outlook.com</a
-    >
-    <a href="https://www.linkedin.com/in/adam-dubicki/"
-      >Linkedin: https://www.linkedin.com/in/adam-dubicki/</a
-    >
-    <a href="https://github.com/adamdubicki"
-      >Github: https://github.com/adamdubicki</a
-    >
-    <a
-      href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
-      >Redbubble: https://www.redbubble.com/people/adubicki</a
-    >
-  </div>
-
-  <style>
-    #about-me {
-      display: "flex";
-      flex-direction: column;
-      gap: 8px;
-    }
-    .welcome {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .section {
-      display: flex;
-      flex-direction: column;
-    }
-  </style>
 </div>
+<div class="section" id="contact">
+  <h2>Contact</h2>
+  <a href="mailto:adamdubicki@outlook.com">Email: adamdubicki(at)outlook.com</a>
+  <a href="https://www.linkedin.com/in/adam-dubicki/"
+    >Linkedin: https://www.linkedin.com/in/adam-dubicki/</a
+  >
+  <a href="https://github.com/adamdubicki"
+    >Github: https://github.com/adamdubicki</a
+  >
+  <a
+    href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
+    >Redbubble: https://www.redbubble.com/people/adubicki</a
+  >
+</div>
+
+<style>
+  #about-me {
+    display: "flex";
+    flex-direction: column;
+    gap: 8px;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
