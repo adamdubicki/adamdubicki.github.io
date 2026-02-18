@@ -1,11 +1,20 @@
 ---
-const { company, img } = Astro.props;
+import Skill from "./Skill.astro";
+
+const { company, img, skills } = Astro.props;
 ---
 
 <div class="experience-card">
-  <img class="experience-card__image" src={img.src} width={64} height={64} />
-  <div>
+  <div class="header">
+    <img class="experience-card__image" src={img.src} width={32} height={32} />
     <h3>{company}</h3>
+  </div>
+  <hr />
+  <div class="skills">
+    {skills?.map((s: string) => <Skill>{s}</Skill>)}
+  </div>
+  <hr />
+  <div class="body">
     <slot />
   </div>
 </div>
@@ -15,13 +24,30 @@ const { company, img } = Astro.props;
     border: dotted;
     border-radius: 10px;
     margin: 8px;
-    display: flex;
-    flex-direction: row;
     gap: 16px;
     padding: 8px;
   }
   .experience-card__image {
     margin: 8px;
     border-radius: 10px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header h3 {
+    margin: 0;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 </style>

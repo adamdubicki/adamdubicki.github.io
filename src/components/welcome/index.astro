@@ -11,7 +11,7 @@ import ibm from "../../assets/ibm.png";
 ---
 
 <div class="welcome">
-  <h1>👋 Hi there! My name is Adam Dubicki.</h1>
+  <h1>Hi there! My name is Adam Dubicki.</h1>
   <div class="section" id="about-me">
     <h2>About Me</h2>
     <hr />
@@ -46,36 +46,83 @@ import ibm from "../../assets/ibm.png";
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""></iframe>
   </div>
-  <div class="section" id="skills">
-    <h2>Skills</h2>
-    <hr />
-    <ul>
-      <li><b>Frontend</b> - React, NextJS, Redux</li>
-      <li><b>Backend</b> - Express, Spring Boot, NestJS, Django</li>
-      <li><b>Languages</b> - Typescript, Python, Kotlin Bash</li>
-      <li><b>Databases</b> - MySQL, Postgres, RDS, DynamoDB, MongoDB</li>
-      <li><b>ELT</b> - Airflow, Spark, Apache Superset, DBT</li>
-    </ul>
-  </div>
-  <div class="section" id="projects">
-    <h2>Projects</h2>
-    <hr />
-    <p>LOREMIPSUM</p>
-  </div>
   <div class="section" id="experience">
     <h2>Experience</h2>
-    <ExperienceCard company="Workday" img={workday}>
+    <hr />
+    <ExperienceCard
+      company="Workday"
+      img={workday}
+      skills={[
+        "Kotlin",
+        "Python",
+        "Typescript",
+        "Spring Boot",
+        "React",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Apache Superset",
+        "Apache Airflow",
+        "PySpark",
+        "Elasticsearch",
+        "Grafana",
+      ]}
+    >
       <ExperienceItem
         from="Jul 2023"
         to="Present"
         position="P3 Software Development Engineer"
       >
         <ul>
-          <li>fooo</li>
+          <li>
+            Orchestrated zero-downtime traffic migrations, implementing dynamic
+            REST routing and phased rollout strategies for critical API
+            endpoints.
+          </li>
+          <li>
+            Architected a multi-year strategic decoupling of our monolithic
+            repository, managing a massive roadmap to enhance system modularity
+            and scalability.
+          </li>
+          <li>
+            Spearheaded incident triage and resolution for high-availability
+            production systems, maintaining strict SLAs and minimizing downtime
+            through root-cause analysis.
+          </li>
+
+          <li>
+            Engineered robust CI/CD pipelines and automated workflows,
+            proactively resolving build failures and cross-functional blockers
+            to sustain high developer velocity.
+          </li>
+
+          <li>
+            Developed the first GenAI/LLM production feature at Workday,
+            delivering article summarization and translation for Knowledge
+            Management.
+          </li>
+
+          <li>
+            Served as Agile Lead/Coach, optimizing team performance by
+            facilitating sprint planning, refinement, and two-week delivery
+            cycles for a high-output engineering team.
+          </li>
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="CPOHQ | Knoetic" img={cpoqh}>
+    <ExperienceCard
+      company="CPOHQ | Knoetic"
+      img={cpoqh}
+      skills={[
+        "Typescript",
+        "DBT",
+        "React",
+        "Snowflake",
+        "Apache Airflow",
+        "Cube-JS",
+      ]}
+    >
       <ExperienceItem
         from="Nov 2022"
         to="Mar 2023"
@@ -94,7 +141,21 @@ import ibm from "../../assets/ibm.png";
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="Cuboh (acquired by Chownow)" img={cuboh}>
+    <ExperienceCard
+      company="Cuboh (acquired by Chownow)"
+      img={cuboh}
+      skills={[
+        "Typescript",
+        "React",
+        "React Native",
+        "Cube-JS",
+        "Python",
+        "Django",
+        "AWS",
+        "Serverless",
+        "Heroku",
+      ]}
+    >
       <ExperienceItem from="Nov 2021" to="Nov 2022" position="Technical Lead">
         <ul>
           <li>
@@ -119,7 +180,7 @@ import ibm from "../../assets/ibm.png";
         </ul>
       </ExperienceItem>
       <ExperienceItem
-        from="May 2025"
+        from="May 2020"
         to="Nov 2021"
         position="Full Stack Software Developer"
       >
@@ -142,16 +203,20 @@ import ibm from "../../assets/ibm.png";
     <ExperienceCard
       company="Freshworks Studio (acquired by EY)"
       img={freshworks}
+      skills={[
+        "PHP",
+        "Laravel",
+        "Typescript",
+        "NextJS",
+        "NestJS",
+        "AWS",
+        "Serverless Framework",
+      ]}
     >
       <ExperienceItem
-        from="Mar 2019"
-        to="May 2020"
-        position="Full Stack Developer II"
-      />
-      <ExperienceItem
         from="Oct 2017"
-        to="Mar 2019"
-        position="Full Stack Developer I"
+        to="May 2020"
+        position="Full Stack Developer"
       >
         <ul>
           <li>
@@ -172,25 +237,68 @@ import ibm from "../../assets/ibm.png";
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="Giftbit" img={giftbit}>
+    <ExperienceCard
+      company="Giftbit"
+      img={giftbit}
+      skills={["Grails", "Groovy", "Typescript", "AWS", "Flyway Migrate"]}
+    >
       <ExperienceItem
         from="May 2016"
         to="Dec 2016"
         position="Junior Backend Software Developer"
       >
         <ul>
-          <li>fooo</li>
+          <li>
+            Developed and optimized RESTful API with unit/integration testing.
+          </li>
+
+          <li>
+            Managed back-end deployments and database migrations on AWS
+            Beanstalk.
+          </li>
+
+          <li>Implemented 2FA by integrating a Twilio-based SMS solution.</li>
+
+          <li>
+            Delivered JWT authentication for the Lightrail MVP under tight
+            deadlines for a <a
+              href="https://techcrunch.com/2016/09/13/giftbit-lets-retailers-create-their-own-e-commerce-currency/"
+              >TechCrunch Disrupt showcase</a
+            >.
+          </li>
         </ul>
       </ExperienceItem>
     </ExperienceCard>
-    <ExperienceCard company="IBM" img={ibm}>
+    <ExperienceCard
+      company="IBM"
+      img={ibm}
+      skills={["Selenium", "Java", "Bug-zilla", "J-Unit", "J-Meter"]}
+    >
       <ExperienceItem from="Jan 2015" to="Apr 2015" position="QA Analyst" />
       <ul>
-        <li>fooo</li>
+        <li>
+          Performed end-to-end manual testing to validate system requirements
+          and UI/UX integrity.
+        </li>
+
+        <li>
+          Automated repetitive test cases using Selenium WebDriver, improving
+          efficiency and consistency in the CI/CD pipeline.
+        </li>
+
+        <li>
+          Authored detailed bug reports with precise reproduction steps,
+          streamlining the debugging process for the engineering team.
+        </li>
       </ul>
     </ExperienceCard>
   </div>
 </div>
+<!-- <div class="section" id="projects">
+  <h2>Projects</h2>
+  <hr />
+  <p>LOREMIPSUM</p>
+</div> -->
 <div class="section" id="contact">
   <h2>Contact</h2>
   <hr />
