@@ -2,7 +2,7 @@
 
 ---
 
-<button id="theme-toggle" aria-label="Toggle theme">
+<button id="theme-toggle" aria-label="Toggle dark mode">
   <svg
     aria-hidden="true"
     width="30px"
@@ -24,8 +24,12 @@
 
 <style>
   #theme-toggle {
-    border: 0;
     background: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 10px;
+    border-color: var(--text-color);
   }
   .sun {
     fill: var(--text-color);

@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
 import Sidebar from "../components/navigation/Sidebar.astro";
+import Header from "../components/navigation/Header.astro"
+import ThemeIcon from "../components/ThemeIcon.astro";
 ---
 
 <!doctype html>
@@ -18,15 +20,21 @@ import Sidebar from "../components/navigation/Sidebar.astro";
     />
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
+      <header class="header">
+      <Header />
+    </header>
   <body>
     <main class="container">
-      <Sidebar class="layout-sidebar" />
+      <aside class="sidebar">
+        <Sidebar />
+      </aside>
       <div class="divider" aria-hidden="true"></div>
       <article class="main">
         <slot />
       </article>
     </main>
   </body>
+  <ThemeIcon />
 </html>
 
 <style>
@@ -46,8 +54,20 @@ import Sidebar from "../components/navigation/Sidebar.astro";
     flex: 1;
     min-width: 0;
   }
+
   @media (max-width: 712px) {
-    .divider {
+    .sidebar,.divider {
+      display: none;
+    }
+
+    .container {
+      margin-top: 48px;
+    }
+    
+  }
+
+  @media (min-width: 712px) {
+    .header {
       display: none;
     }
   }
