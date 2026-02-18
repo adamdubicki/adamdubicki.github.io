@@ -2,7 +2,7 @@
 layout: ../layouts/Layout.astro
 ---
 
-# Books I have read
+# Books I Have Read
 
 - I borrowed this format from blogger Luke Gearing.
 - Books in **bold** are strongly recommended.
