@@ -49,9 +49,11 @@ h4 {
 }
 
 a {
-  text-decoration: none;;
+  text-decoration: none;
 }
 
-p, a, li {
+p,
+a,
+li {
   margin: 10px 0px 0px 10px;
 }

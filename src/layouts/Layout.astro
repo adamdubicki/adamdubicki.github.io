@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import Sidebar from "../components/navigation/Sidebar.astro";
-import Header from "../components/navigation/Header.astro"
+import Header from "../components/navigation/Header.astro";
 import ThemeIcon from "../components/ThemeIcon.astro";
 ---
 
@@ -20,9 +20,9 @@ import ThemeIcon from "../components/ThemeIcon.astro";
     />
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
-      <header class="header">
-      <Header />
-    </header>
+  <header class="header">
+    <Header />
+  </header>
   <body>
     <main class="container">
       <aside class="sidebar">
@@ -35,40 +35,41 @@ import ThemeIcon from "../components/ThemeIcon.astro";
     </main>
   </body>
   <ThemeIcon />
-</html>
 
-<style>
-  .container {
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 48px 24px;
-    gap: 40px;
-    align-items: stretch;
-  }
 
-  .divider {
-    border-left: 2px dotted var(--link-color);
-  }
-  .main {
-    flex: 1;
-    min-width: 0;
-  }
-
-  @media (max-width: 712px) {
-    .sidebar,.divider {
-      display: none;
-    }
-
+  <style>
     .container {
-      margin-top: 48px;
+      display: flex;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      gap: 40px;
+      align-items: stretch;
     }
-    
-  }
 
-  @media (min-width: 712px) {
-    .header {
-      display: none;
+    .divider {
+      border-left: 2px dotted var(--link-color);
     }
-  }
-</style>
+    .main {
+      flex: 1;
+      min-width: 0;
+    }
+
+    @media (max-width: 712px) {
+      .sidebar,
+      .divider {
+        display: none;
+      }
+
+      .container {
+        margin-top: 48px;
+      }
+    }
+
+    @media (min-width: 712px) {
+      .header {
+        display: none;
+      }
+    }
+  </style>
+</html>

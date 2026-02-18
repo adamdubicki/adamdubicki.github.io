@@ -15,22 +15,23 @@ import { NAVIGATION } from "../../utils/constants.ts";
   <nav class="nav">
     {NAVIGATION.map((i) => <a href={i.href}>{i.text}</a>)}
   </nav>
-<div/>
+  <div></div>
 
-<style>
-  .sidebar {
-    flex: 0 0 216px;
-    position: sticky;
-    top: 24px;
-    height: fit-content;
-  }
+  <style>
+    .sidebar {
+      flex: 0 0 216px;
+      position: sticky;
+      top: 24px;
+      height: fit-content;
+    }
 
-  .logo {
-    border-radius: 10%;
-  }
+    .logo {
+      border-radius: 10%;
+    }
 
-  .nav {
-    display: flex;
-    flex-direction: column;
-  }
-</style>
+    .nav {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</div>
