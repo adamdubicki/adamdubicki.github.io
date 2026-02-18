@@ -1,0 +1,31 @@
+---
+import { NAVIGATION } from "../../utils/constants.ts";
+---
+
+<div class="header-content">
+  <nav class="nav">
+    {NAVIGATION.map((i) => <a href={i.href}>{i.text}</a>)}
+  </nav>
+</div>
+
+<style>
+  .header-content {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  a {
+    white-space: nowrap;
+    padding: 8px;
+  }
+</style>

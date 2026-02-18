@@ -1,0 +1,16 @@
+---
+const { from, to, position } = Astro.props;
+---
+
+<div class="experience-item">
+  <b>{position}</b>
+  <i>{from} - {to}</i>
+  <slot />
+</div>
+
+<style>
+  .experience-item {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

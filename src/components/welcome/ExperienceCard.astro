@@ -1,0 +1,27 @@
+---
+const { company, img } = Astro.props;
+---
+
+<div class="experience-card">
+  <img class="experience-card__image" src={img.src} width={64} height={64} />
+  <div>
+    <h3>{company}</h3>
+    <slot />
+  </div>
+</div>
+
+<style>
+  .experience-card {
+    border: dotted;
+    border-radius: 10px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 8px;
+  }
+  .experience-card__image {
+    margin: 8px;
+    border-radius: 10px;
+  }
+</style>

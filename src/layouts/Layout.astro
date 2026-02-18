@@ -1,7 +1,8 @@
 ---
-import logo from "../assets/adam-dithered-240x240.png";
-import ThemeIcon from "../components/ThemeIcon.astro";
 import "../styles/global.css";
+import Sidebar from "../components/navigation/Sidebar.astro";
+import Header from "../components/navigation/Header.astro";
+import ThemeIcon from "../components/ThemeIcon.astro";
 ---
 
 <!doctype html>
@@ -19,26 +20,13 @@ import "../styles/global.css";
     />
     <title>Adam Dubicki | Full Stack Developer</title>
   </head>
+  <header class="header">
+    <Header />
+  </header>
   <body>
     <main class="container">
       <aside class="sidebar">
-        <img
-          width={240}
-          height={240}
-          src={logo.src}
-          alt="Adam Dubicki Headshot"
-        />
-        <span>Adam Dubicki<ThemeIcon /></span>
-        <p>Full Stack Software Developer</p>
-        <nav class="sidebar__nav">
-          <a href="/#about-me">About Me</a>
-          <a href="/#skills">Skills</a>
-          <a href="/#projects">Projects</a>
-          <a href="/#experience">Experience</a>
-          <a href="/#contact">Contact</a>
-          <hr />
-          <a href="/books-i-have-read">Books I Have Read</a>
-        </nav>
+        <Sidebar />
       </aside>
       <div class="divider" aria-hidden="true"></div>
       <article class="main">
@@ -46,37 +34,42 @@ import "../styles/global.css";
       </article>
     </main>
   </body>
+  <ThemeIcon />
+
+
+  <style>
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      gap: 40px;
+      align-items: stretch;
+    }
+
+    .divider {
+      border-left: 2px dotted var(--link-color);
+    }
+    .main {
+      flex: 1;
+      min-width: 0;
+    }
+
+    @media (max-width: 712px) {
+      .sidebar,
+      .divider {
+        display: none;
+      }
+
+      .container {
+        margin-top: 48px;
+      }
+    }
+
+    @media (min-width: 712px) {
+      .header {
+        display: none;
+      }
+    }
+  </style>
 </html>
-
-<style>
-  .container {
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 48px 24px;
-    gap: 40px;
-    align-items: stretch;
-  }
-
-  .divider {
-    width: 1px;
-    border-left: 2px dotted var(--text-color);
-  }
-
-  .sidebar {
-    flex: 0 0 216px;
-    position: sticky;
-    top: 24px;
-    height: fit-content;
-  }
-
-  .sidebar__nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .main {
-    flex: 1;
-    min-width: 0;
-  }
-</style>

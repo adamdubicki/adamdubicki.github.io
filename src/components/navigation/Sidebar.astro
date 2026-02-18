@@ -1,0 +1,37 @@
+---
+import logo from "../../assets/adam-dithered-240x240.png";
+import { NAVIGATION } from "../../utils/constants.ts";
+---
+
+<div class="sidebar">
+  <img
+    class="logo"
+    width={240}
+    height={240}
+    src={logo.src}
+    alt="Adam Dubicki Headshot"
+  />
+  <h2>Adam Dubicki</h2>
+  <nav class="nav">
+    {NAVIGATION.map((i) => <a href={i.href}>{i.text}</a>)}
+  </nav>
+  <div></div>
+
+  <style>
+    .sidebar {
+      flex: 0 0 216px;
+      position: sticky;
+      top: 24px;
+      height: fit-content;
+    }
+
+    .logo {
+      border-radius: 10%;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</div>

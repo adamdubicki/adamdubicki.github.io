@@ -261,7 +261,7 @@ layout: ../layouts/Layout.astro
 
 ## 2025
 
-- \***\*Best Served Cold - Joe Abercrombie\*\***
+- _**Best Served Cold - Joe Abercrombie**_
 - **The Crippled God - Steven Erikson**
 - The Last Unicorn - Peter S. Beagle
 - Better Small Talk - Patrick King
@@ -297,7 +297,7 @@ layout: ../layouts/Layout.astro
 - Into Thin Air - Jon Krakauer
 - 20th Century Ghosts - Joe Hill
 - _**No Country for Old Men - Cormac McCarthy**_
-- **The Library at Mount Char**
+- **The Library at Mount Char - Scott Hawkins**
 - **Annihilation - Jeff Vandermeer**
 - **We Have Always Lived in a Castle - Shirley Jackson**
 - Heart Shaped Box - Joe Hill

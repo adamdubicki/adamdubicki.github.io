@@ -10,6 +10,10 @@
   font-family: Oxygen, sans-serif, "Roboto", sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 html.dark {
   --bg-color: #2c1f33;
   --text-color: #f5eac2;
@@ -27,27 +31,29 @@ html {
 }
 
 hr {
-  border-color: var(--link-color);
+  border-top: 2px dotted var(--link-color);
+  border-bottom: 0px;
+  width: 100%;
 }
 
 a {
   color: var(--link-color);
 }
 
-h1 {
-  font-size: 1.5rem;
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-p {
-  margin: 0;
+a {
+  text-decoration: none;
 }
 
-.nav-links a {
-  color: var(--text-color);
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  color: var(--menu-bg);
+p,
+a,
+li {
+  margin: 10px 0px 0px 10px;
 }
