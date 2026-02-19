@@ -4,10 +4,10 @@ export const NAVIGATION = [
     href: "/#about-me",
   },
   { href: "#experience", text: "Experience" },
-  // {
-  //   href: "/#projects",
-  //   text: "Projects",
-  // },
+  {
+    href: "/#projects",
+    text: "Projects",
+  },
   { href: "/#contact", text: "Contact" },
   {
     href: "/books-i-have-read",

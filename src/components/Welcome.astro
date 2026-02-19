@@ -1,13 +1,13 @@
 ---
-import ExperienceCard from "./ExperienceCard.astro";
-import ExperienceItem from "./ExperienceItem.astro";
+import ExperienceCard from "./experience/ExperienceCard.astro";
+import ExperienceItem from "./experience/ExperienceItem.astro";
 
-import giftbit from "../../assets/giftbit.png";
-import cuboh from "../../assets/cuboh.png";
-import freshworks from "../../assets/freshworks.png";
-import cpoqh from "../../assets/cpohq.png";
-import workday from "../../assets/workday.png";
-import ibm from "../../assets/ibm.png";
+import giftbit from "../assets/giftbit.png";
+import cuboh from "../assets/cuboh.png";
+import freshworks from "../assets/freshworks.png";
+import cpoqh from "../assets/cpohq.png";
+import workday from "../assets/workday.png";
+import ibm from "../assets/ibm.png";
 ---
 
 <div class="welcome">
@@ -31,11 +31,13 @@ import ibm from "../../assets/ibm.png";
         class="text-primary"
         rel="noreferrer"
         href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
+        target="_blank"
       >
         redbubble.</a
       > For other updates you can follow me on <a
         class="text-primary"
         href="https://www.instagram.com/a.j.dubicki"
+        target="_blank"
         rel="noreferrer">instagram.</a
       >
     </p>
@@ -263,7 +265,7 @@ import ibm from "../../assets/ibm.png";
             Delivered JWT authentication for the Lightrail MVP under tight
             deadlines for a <a
               href="https://techcrunch.com/2016/09/13/giftbit-lets-retailers-create-their-own-e-commerce-currency/"
-              >TechCrunch Disrupt showcase</a
+              target="_blank">TechCrunch Disrupt showcase</a
             >.
           </li>
         </ul>
@@ -294,25 +296,55 @@ import ibm from "../../assets/ibm.png";
     </ExperienceCard>
   </div>
 </div>
-<!-- <div class="section" id="projects">
+<div class="section" id="projects">
   <h2>Projects</h2>
   <hr />
-  <p>LOREMIPSUM</p>
-</div> -->
+  <ExperienceCard
+    company="TypeORM Entity Factory"
+    skills={["Typescript", "NestJS", "TypeORM"]}
+  >
+    <ExperienceItem
+      from="Apr 2020"
+      to="Jun 2022"
+      position="NPM Package (Archived)"
+    />
+    <ul>
+      <li>
+        Inspired by Laravel data factories. A lightweight and flexible utility
+        designed to simplify the creation of mock data for testing in
+        applications using TypeORM.
+      </li>
+
+      <li>
+        Instead of manually instantiating complex objects with dummy data every
+        time you write a test, you define a blueprint once and let the factory
+        handle the heavy lifting.
+      </li>
+
+      <li>
+        <a
+          href="https://github.com/adamdubicki/typeorm-entity-factory"
+          target="_blank">Repository</a
+        >
+      </li>
+    </ul>
+  </ExperienceCard>
+</div>
 <div class="section" id="contact">
   <h2>Contact</h2>
   <hr />
-  <a href="mailto:adamdubicki@outlook.com"
+  <a href="mailto:adamdubicki@outlook.com" target="_blank"
     ><b>Email</b> - adamdubicki(at)outlook.com</a
   >
-  <a href="https://www.linkedin.com/in/adam-dubicki/"
+  <a href="https://www.linkedin.com/in/adam-dubicki/" target="_blank"
     ><b>Linkedin</b> - https://www.linkedin.com/in/adam-dubicki/</a
   >
-  <a href="https://github.com/adamdubicki"
+  <a href="https://github.com/adamdubicki" target="_blank"
     ><b>Github</b> - https://github.com/adamdubicki</a
   >
   <a
     href="https://www.redbubble.com/people/adubicki/explore?asc=u&page=1&sortOrder=recent"
+    target="_blank"
     ><b>Redbubble</b> https://www.redbubble.com/people/adubicki</a
   >
 </div>

@@ -1,12 +1,21 @@
 ---
-import Skill from "./Skill.astro";
+import Skill from "../Skill.astro";
 
 const { company, img, skills } = Astro.props;
 ---
 
 <div class="experience-card">
   <div class="header">
-    <img class="experience-card__image" src={img.src} width={32} height={32} />
+    {
+      img && (
+        <img
+          class="experience-card__image"
+          src={img.src}
+          width={32}
+          height={32}
+        />
+      )
+    }
     <h3>{company}</h3>
   </div>
   <hr />
