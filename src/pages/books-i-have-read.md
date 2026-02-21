@@ -323,3 +323,6 @@ layout: ../layouts/Layout.astro
 - Amulet: The Stonekeeper's Curse - Kazu Kibuishi
 - Rejection - Tony Tulathimutte
 - **Blindsight - Peter Watts**
+- Amulet: The Cloud Searchers - Kazu Kibuishi
+- Skeleton Crew - Stephen King
+- Howls from the Dark Ages: An Anthology of Medieval Horror - P. L. McMillan and Solomon Forse
