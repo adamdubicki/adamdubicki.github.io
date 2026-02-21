@@ -1,6 +1,5 @@
 ---
 import Skill from "../Skill.astro";
-import { Image } from 'astro:assets';
 
 const { company, img, skills } = Astro.props;
 ---
@@ -21,10 +20,18 @@ const { company, img, skills } = Astro.props;
     <h3>{company}</h3>
   </div>
   <hr />
-  <div class="skills">
-    {skills?.map((s: string) => <Skill>{s}</Skill>)}
-  </div>
-  <hr />
+  {
+    skills?.length > 0 && (
+      <>
+        <div class="skills">
+          {skills?.map((s: string) => (
+            <Skill>{s}</Skill>
+          ))}
+        </div>
+        <hr />
+      </>
+    )
+  }
   <div class="body">
     <slot />
   </div>
