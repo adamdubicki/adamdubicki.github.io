@@ -29,3 +29,15 @@ import { NAVIGATION } from "../../utils/constants.ts";
     padding: 8px;
   }
 </style>
+
+<script is:inline>
+  document.querySelectorAll(".header-content .nav a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      window.posthog?.capture("navigation_link_clicked", {
+        label: link.textContent?.trim(),
+        href: link.getAttribute("href"),
+        location: "header",
+      });
+    });
+  });
+</script>

@@ -374,3 +374,69 @@ import ibm from "../assets/ibm.png";
     flex-direction: column;
   }
 </style>
+
+<script is:inline>
+  // Track external links in the About Me section (Redbubble, Instagram)
+  document
+    .querySelectorAll("#about-me a[target='_blank']")
+    .forEach(function (link) {
+      link.addEventListener("click", function () {
+        window.posthog?.capture("external_link_clicked", {
+          href: link.getAttribute("href"),
+          label: link.textContent?.trim(),
+          section: "about_me",
+        });
+      });
+    });
+
+  // Track project repository link
+  var repoLink = document.querySelector(
+    "#projects a[href*='github.com/adamdubicki/typeorm-entity-factory']",
+  );
+  if (repoLink) {
+    repoLink.addEventListener("click", function () {
+      window.posthog?.capture("project_repository_clicked", {
+        href: repoLink.getAttribute("href"),
+        project: "TypeORM Entity Factory",
+      });
+    });
+  }
+
+  // Track TechCrunch external link in experience section
+  var techCrunchLink = document.querySelector("a[href*='techcrunch.com']");
+  if (techCrunchLink) {
+    techCrunchLink.addEventListener("click", function () {
+      window.posthog?.capture("external_link_clicked", {
+        href: techCrunchLink.getAttribute("href"),
+        label: techCrunchLink.textContent?.trim(),
+        section: "experience",
+      });
+    });
+  }
+
+  // Track contact section links
+  var contactSection = document.querySelector("#contact");
+  if (contactSection) {
+    var emailLink = contactSection.querySelector("a[href^='mailto:']");
+    if (emailLink) {
+      emailLink.addEventListener("click", function () {
+        window.posthog?.capture("contact_email_clicked", {
+          href: emailLink.getAttribute("href"),
+        });
+      });
+    }
+
+    contactSection
+      .querySelectorAll("a:not([href^='mailto:'])")
+      .forEach(function (link) {
+        link.addEventListener("click", function () {
+          window.posthog?.capture("contact_social_clicked", {
+            href: link.getAttribute("href"),
+            label:
+              link.querySelector("b")?.textContent?.trim() ||
+              link.textContent?.trim(),
+          });
+        });
+      });
+  }
+</script>

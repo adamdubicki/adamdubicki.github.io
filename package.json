@@ -11,7 +11,8 @@
     "format:write": "prettier --write ."
   },
   "dependencies": {
-    "astro": "^5.17.1"
+    "astro": "^5.17.1",
+    "posthog-js": "^1.352.0"
   },
   "devDependencies": {
     "prettier": "^3.8.1",
