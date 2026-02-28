@@ -326,3 +326,6 @@ layout: ../layouts/Layout.astro
 - Amulet: The Cloud Searchers - Kazu Kibuishi
 - Skeleton Crew - Stephen King
 - Howls from the Dark Ages: An Anthology of Medieval Horror - P. L. McMillan and Solomon Forse
+- **V for Vendetta - Alan Moore**
+- Amulet: The Last Council - Kazu Kibuishi
+- The Nice House by the Sea V1 - Alvaro Martinez and James Tynion IV
