@@ -329,3 +329,6 @@ layout: ../layouts/Layout.astro
 - **V for Vendetta - Alan Moore**
 - Amulet: The Last Council - Kazu Kibuishi
 - The Nice House by the Sea V1 - Alvaro Martinez and James Tynion IV
+- **The Buffalo Hunter Hunter - Stephen Graham Jones**
+- The Fellowship of the Ring - J. R. R. Tolkien
+- The Penguin Book of Cults - Joseph P. Laycock
